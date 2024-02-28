@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#latest {
+    padding-top: 20px; 
+    margin-top: 20px; 
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    max-width: 100%;
+    height: auto; 
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.container .row img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.container form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.container form .btn {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container form {
+        width: 100%;
+    }
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.col-md-3 a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-md-3 p {
+    margin-bottom: 0;
+}
+
+#connect {
+text-align: center;
+padding-bottom: 10px;
+}
